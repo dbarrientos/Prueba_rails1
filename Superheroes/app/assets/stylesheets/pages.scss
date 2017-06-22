@@ -2,8 +2,27 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.batman{
-	background-image: url(https://upload.wikimedia.org/wikipedia/en/1/17/Batman-BenAffleck.jpg);
-	height: 1600px;
-	width: 1600px;
+
+.superman{
+	background-image: url(http://i.pmcanal5.com/2017/06/superman-superheroe-aburrido-dia_cover.jpeg);
+	float: right;
+	width: 50%;
+	height: 50%;
+	box-sizing: border-box;
+	display: inline-block;
 }
+
+.batman{
+	background-image: url(http://www.dccomics.com/sites/default/files/GalleryChar_1920x1080_BM_Cv38_54b5d0d1ada864.04916624.jpg);
+	float: left;
+	width: 50%;
+	height: 50%;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.container{
+	wight:1600px;
+	height:1600px;
+}
+
